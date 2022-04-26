@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+
+
+
+  <test name="TCS_TestReport">
+    <classes>
+      <class name="questionExample.GoogleSearchTest"/>
+      <class name="questionExample.AmazonSearchTest"/>
+      <class name="hrmLoginExample.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

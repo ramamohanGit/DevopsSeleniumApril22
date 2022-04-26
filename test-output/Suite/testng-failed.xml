@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="TCS_TestReport_AmazonSearchTest(failed)">
+    <classes>
+      <class name="questionExample.AmazonSearchTest">
+        <methods>
+          <include name="launchApp"/>
+          <include name="SearchItems"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- questionExample.AmazonSearchTest -->
+    </classes>
+  </test> <!-- TCS_TestReport_AmazonSearchTest(failed) -->
+  <test thread-count="5" parallel="tests" name="TCS_TestReport_GoogleSearchTest(failed)">
+    <classes>
+      <class name="questionExample.GoogleSearchTest">
+        <methods>
+          <include name="SearchItems"/>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- questionExample.GoogleSearchTest -->
+    </classes>
+  </test> <!-- TCS_TestReport_GoogleSearchTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
